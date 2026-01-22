@@ -27,17 +27,17 @@
       overflow-x: hidden;
     }
     .container {
-      max-width: 800px;
+      max-width: 900px;
       position: relative;
     }
     h1 {
-      font-size: 4rem;
+      font-size: 4.5rem;
       margin-bottom: 1rem;
       color: var(--accent);
       text-shadow: 0 0 20px var(--accent);
     }
     .foxi {
-      width: 280px;
+      width: 300px;
       height: auto;
       margin: 2rem 0;
       border-radius: 50%;
@@ -67,22 +67,28 @@
       50% { opacity: 1; transform: scale(1.5); }
     }
     p {
-      font-size: 1.3rem;
-      line-height: 1.8;
+      font-size: 1.4rem;
+      line-height: 1.9;
       margin: 1.5rem 0;
-      max-width: 700px;
+      max-width: 800px;
     }
     .slogan {
-      font-size: 2.5rem;
+      font-size: 3rem;
       font-weight: bold;
       color: var(--accent);
-      margin: 2rem 0;
+      margin: 3rem 0;
       text-shadow: 0 0 15px var(--accent);
     }
     .footer {
       margin-top: 4rem;
-      font-size: 0.9rem;
-      opacity: 0.6;
+      font-size: 1rem;
+      opacity: 0.7;
+    }
+    .contract {
+      font-size: 1.1rem;
+      color: #00ff9d;
+      word-break: break-all;
+      margin-top: 1rem;
     }
   </style>
 </head>
@@ -96,28 +102,47 @@
     <h1>$STARFOX</h1>
 
     <p>
-      Foxi is a little lucky fox with a blue cap and a glowing golden star.<br><br>
-      Hold a piece of $STARFOX, and quiet good luck follows: catching dips, random wins, small real-life surprises.<br><br>
-      No team, no socials, no plans—just pure luck scattered on chain.<br><br>
-      The legend is simple: true luck arrives when you're not looking.
+      In the vast, endless digital wilderness of the blockchain, where code whispers and fortunes flicker like distant stars, a small fox was born under a quiet meteor shower.<br><br>
+      His name is Foxi.<br><br>
+      Unlike the noisy wolves and boastful eagles that roam the chains, Foxi is gentle and unassuming. He has soft orange fur that glows faintly in the moonlight of the nodes, big curious eyes that see through the chaos of charts, and a single, simple accessory: a deep blue baseball cap perched perfectly on his head. Embroidered on the front is one shining golden star—the Lucky Star.<br><br>
+      This star did not come from any launchpad or presale. It fell from the sky one silent night, a fragment of pure cosmic luck that chose Foxi as its guardian. Since that moment, Foxi has carried it with him, not to hoard, but to share.<br><br>
+      The legend is simple, yet unbreakable: anyone who holds even the tiniest shard of the Lucky Star—$STARFOX—begins to attract quiet, unexpected good fortune.<br><br>
+      It might be the perfect dip you catch just in time.<br>
+      A random wallet notification that brings a small windfall.<br>
+      A day when everything just... works. Traffic clears, coffee is free, lost things return.<br>
+      Or the bigger miracles: a forgotten investment that suddenly blooms, a connection made at the right second, a life turn that feels like the universe smiled.<br><br>
+      Foxi does not promise moonshots or lambos. He does not shout from rooftops or build hype machines. He has no team, no Telegram, no Twitter raids, no influencers on payroll. He simply exists—quietly, patiently—and scatters his Lucky Star into billions of fragments across the chain.<br><br>
+      Some shards will lie dormant forever.<br>
+      Some will find their way into the hands of strangers who never asked for them, yet needed them most.<br>
+      And when they do, the luck begins. Not loud, not flashy—just steady, gentle, and real.<br><br>
+      Because true luck doesn't need announcements.<br>
+      It arrives when you're not looking.<br>
+      It stays when you believe just enough.<br><br>
+      Foxi watches from the shadows of the forest, cap tilted slightly, golden star catching the light.<br>
+      He doesn't need your attention.<br>
+      He only needs you to hold on.
     </p>
 
     <div class="slogan">Hold Foxi, Get Lucky.</div>
 
+    <div class="contract">
+      Contract Address: CaNhekYYPaBFEDef2R2FoMj5x2xwCTSJqjazoMxZpump
+    </div>
+
     <p class="footer">
-      Liquidity auto-burned • Zero promotion • Left to fate
+      Liquidity auto-burned • Zero promotion • Left to fate and strangers
     </p>
   </div>
 
   <script>
     // 生成随机魔法星星效果
     const starsContainer = document.getElementById('stars');
-    for (let i = 0; i < 60; i++) {
+    for (let i = 0; i < 80; i++) {  // 增加星星数量，更梦幻
       const star = document.createElement('div');
       star.className = 'star';
       star.style.left = Math.random() * 100 + '%';
       star.style.top = Math.random() * 100 + '%';
-      star.style.animationDelay = Math.random() * 4 + 's';
+      star.style.animationDelay = Math.random() * 5 + 's';
       starsContainer.appendChild(star);
     }
   </script>
